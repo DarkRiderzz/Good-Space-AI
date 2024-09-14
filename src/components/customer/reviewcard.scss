@@ -1,6 +1,5 @@
 #review-card {
   padding: 2.4rem;
-  border: 0.1rem solid rgba(54, 94, 238, 0.3);
   border-radius: 1.2rem;
   display: flex;
   flex-direction: column;
@@ -45,4 +44,19 @@
     padding: 2rem;
     gap: 2rem;
   }
+}
+
+.first-card {
+  background-color: rgba(54, 94, 238, 0.1);
+  border: solid 1px rgba(54, 94, 238, 0.3);
+}
+
+.second-card {
+  background-color: rgba(26, 172, 234, 0.1);
+  border: solid 1px rgba(26, 172, 234, 0.3);
+}
+
+.third-card {
+  background-color: rgba(36, 128, 235, 0.1);
+  border: solid 1px rgba(36, 128, 235, 0.3);
 }

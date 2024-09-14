@@ -4,7 +4,7 @@ import { Hero } from "./components/hero/Hero";
 import { Carousel } from "./components/carousel/Carousel";
 import { Features } from "./components/features/Features";
 import { Integrations } from "./components/integrations/Integrations";
-import { Reviews } from "./components/reviews/Reviews";
+import { Reviews } from "./components/customer/Reviews";
 import { ContactUs } from "./components/contactUs/Contactus";
 import { Footer } from "./components/footer/Footer";
 
