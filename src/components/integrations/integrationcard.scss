@@ -1,11 +1,10 @@
 #integration-card {
   padding: 2rem;
-  border: 0.1rem solid rgba(252, 129, 40, 0.5);
+
   border-radius: 1.6rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  // background-image: linear-gradient(to left, #fc8128, #fcb428);
   .card-header {
     display: flex;
     align-items: center;
@@ -32,4 +31,19 @@
       color: rgba(100, 116, 139, 1);
     }
   }
+}
+
+.card-1 {
+  background: linear-gradient(145deg, #fffbe6, #fdf2d8);
+  border: 1px solid rgba(252, 129, 40, 0.5);
+}
+
+.card-2 {
+  background: linear-gradient(145deg, #f5f9f7, #eaf3ed);
+  border: solid 1px #a7ceb4;
+}
+
+.card-3 {
+  background: linear-gradient(145deg, #f5f9ff, #eaf3fd);
+  border: solid 1px #95b0cf;
 }

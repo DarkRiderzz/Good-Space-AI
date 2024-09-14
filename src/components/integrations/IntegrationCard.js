@@ -1,9 +1,9 @@
 import React from "react";
 import "./integrationcard.scss";
 
-export const IntegrationCard = ({ integration }) => {
+export const IntegrationCard = ({ integration, card }) => {
   return (
-    <div id="integration-card">
+    <div id="integration-card" className={`${card}`}>
       <div className="card-header">
         <img src={integration.icon} alt="image" className="card-icon" />
         <p>{integration.title}</p>
